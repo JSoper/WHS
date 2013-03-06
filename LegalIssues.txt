@@ -1,0 +1,46 @@
+Max
+
+A review of the legal issues with the World Heritage Sites ...
+
+In summary, they are similar to that of iTunes. It, they have this data in XML format, which is an
+invitation to use it, but on other pages, they seem to say they don't want you to use it.
+We would eventually benefit from a clarification from them - can we use the data or not?
+
+Somewhere in the site, I remember reading that it was OK to use the data, as long as your site
+was free. Unfortunately, I cannot locate that statement right now. If I can find it, I think, we
+would have to open-source the "solution" app, as well as make clear that Ext JS is available
+under GPL3.
+
+I had had it in the back of my mind to do a mobile app with this data, and offer it to them for
+free. I think they would say OK. Getting an OK about using their data for a website exercise I 
+think is doable, but not a slam-dunk. They already have a website.
+
+Jim
+
+============== RELEVANT LEGAL PARAGRAPHS
+
+http://whc.unesco.org/en/syndication
+This website and its content is protected by international law.   
+Any republication, online or in any other form, of any UNESCO/WHC data requires prior written authorization .
+
+Each syndication use must include the following copyright notice: 
+"Copyright © 1992 - [current year] UNESCO/World Heritage Centre. All rights reserved." 
+The correct reference is included in the Channel Description element of the RSS feed.
+
+http://whc.unesco.org/en/disclaimer/
+
+Linking Policy: terms and conditions of use
+We welcome links to http://whc.unesco.org and ask that you observe the following guidelines:
+Do not incorporate any content from this site into your site (e.g., by in-lining, framing or creating 
+other browser or border environments around UNESCO/WHC content). 
+You may only link to, not replicate content.
+
+You may not sell, license, or otherwise assign the use of any material from UNESCO’s or the World Heritage Centre’s web site.
+
+All photographs shown on this site are the exclusive or non-exclusive property of UNESCO or of third parties, 
+copyright holders, who authorize the UNESCO World Heritage Centre to display and distribute them. Any use of 
+photographs requires a separate request for authorization from the World Heritage Centre (email: wh-info@unesco.org). 
+This permission may not under any circumstances be transferred to a third party.
+
+If you have any comments, questions or requests please 
+write to wh-info@unesco.org .

@@ -1,0 +1,38 @@
+Issues for World Heritage Sites app
+(sent to Max and Lee 1/28/13
+
+LOCAL FILES
+
+o Since the website only provides data in XML format, and ExtJS does not seem to have
+   means to read XML remotely, we have to use local files.
+
+IMAGES
+
+o We run into problems similar with iTunes - how to get images somewhere in the app
+   where it makes sense. Doesn't look good in a grid, and can't jam it into a form.
+
+o The problem with images in the WHS case has been eliminated, as on rereading
+   legal stuff, UNESCO does not own the rights to the images. So we would have to
+   get approval from each of the hundreds of sites we are using to include the image.
+   Bummer.
+
+URL & FORMS
+
+o Each WH Site has a url associated with it. That would be nice to have as a 
+   link on the Detail Panel. Forms do not make this easy.
+   
+MAPS
+
+o We cannot use maps without index.html, as opposed to the app.html that Architect uses,
+   because we need to load in http://maps.google.com/maps/api/js?sensor=true
+   Attempts to use in WhsController.#onLaunch the following code:
+       Ext.data.JsonP.request({ url : "http://maps.google.com/maps/api/js", params: { sensor : true } } )
+   result in a bug. The fact that we have to use index.html instead of app.html is outside the
+   recommended practice of Architect, at least in the beginning.
+   
+o  If we use maps, the updating needs to be dead easy, as controllers work on
+   components, and does not respond to a click on a map marker
+   See MapPanel#onMarkerClick
+   Normally I would share code between the MapPanel and the WhsController using
+   a mixin. This adds a bit of complication that we probably should not have in a 1st day app.
+   
